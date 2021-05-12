@@ -5,5 +5,13 @@
   "repository": "https://github.com/fleflis/spotify-clone",
   "author": "Fleflis",
   "license": "MIT",
-  "private": true
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
