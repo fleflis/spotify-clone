@@ -1,0 +1,9 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "A simple spotify clone, for studying purposes",
+  "repository": "https://github.com/fleflis/spotify-clone",
+  "author": "Fleflis",
+  "license": "MIT",
+  "private": true
+}
