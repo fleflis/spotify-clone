@@ -1,3 +1,7 @@
+require('dotenv').config();
+
 module.exports = {
-  PORT: '3000'
-}
+  port: '3000',
+  clientId: process.env.SPOTIFY_CLIENT_ID || '',
+  clientSecret: process.env.SPOTIFY_CLIENT_SECRET || '',
+};
